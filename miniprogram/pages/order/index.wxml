@@ -1,0 +1,6 @@
+<!--pages/order/index.wxml-->
+
+<!--背景图-->
+<view class="bg_box">
+    <image src="../../image/background.png"></image>
+</view>

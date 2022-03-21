@@ -1,0 +1,44 @@
+{
+  "pages": [ 
+      "pages/homePage/index",
+      "pages/me/index",
+      "pages/order/index"
+  ],
+  "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#AFEEEE",
+      "navigationBarTitleText": "票票虎",
+      "navigationBarTextStyle": "black",
+      "backgroundColor": "#eeeeee",
+      "navigationStyle": "custom"
+  },
+  "tabBar": {
+      "color":"#000000", 
+      "borderStyle": "black",
+      "backgroundColor":"#AFEEEE",
+      
+      "list":[
+          {
+              "pagePath": "pages/homePage/index",
+              "iconPath": "image/homePage.png",
+              "selectedIconPath": "image/homePageSelected.png",
+              "text": "首页"
+             
+          },
+          {
+              "pagePath":"pages/order/index",
+              "iconPath": "image/order.png",
+              "selectedIconPath": "image/orderSelected.png",
+              "text":"订单"
+          },
+          {
+              "pagePath": "pages/me/index",
+              "iconPath": "image/me.png",
+              "selectedIconPath": "image/meSelected.png",
+              "text": "我的" 
+          }
+      ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

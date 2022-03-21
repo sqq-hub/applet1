@@ -1,0 +1,49 @@
+<!--pages/me/index.wxml-->
+
+<!--背景图-->
+<view class="bg_box">
+    <image src="../../image/background.png"></image>
+</view>
+
+<!--未登录-->
+
+<view wx:if="{{!UserLogin}}" class="login_box" bindtap="getUserProfile">
+    <view class="userlogin">
+        <view>点击登录</view>
+        <view style="font-size:13px;color: grey;margin-top: 5rpx;">需要先完成授权登录才能使用服务哦~</view>
+    </view>
+</view>
+
+
+
+
+
+<!--已登录-->
+<view wx:else class="login_box">
+    <view class="userAvatar_box" bindtap="secretEntrance">
+        <image src="{{userInfo.avatarUrl}}"></image>
+    </view>
+    <view class="userlogin">
+        <view style="font-weight: bold;">欢迎：{{userInfo.nickName}}</view>
+    </view>
+    
+
+</view>
+
+
+<!-- 服务 -->
+<view class="service_box">
+	<view class="service_title">服务</view>
+	
+
+	<view  class="service_row" bindtap="exit">
+        <view class="service_icon">
+            <image src="../../image/logout.png"></image>
+        </view>
+        <view class="service_text">退出登录</view>
+    </view>
+</view>
+
+
+
+

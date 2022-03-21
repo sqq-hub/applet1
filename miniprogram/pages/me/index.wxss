@@ -1,0 +1,89 @@
+/* pages/me/index.wxss */
+
+/* 背景图 */
+.bg_box {
+	width: 100%;
+	height: 400rpx;
+    z-index: 1;
+   
+}
+
+.bg_box image {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* 登录 */
+.login_box {
+	height: 200rpx;
+	margin: 10rpx 18rpx;
+	border-radius: 16rpx;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 20rpx 20rpx 10rpx rgba(39, 48, 57, 0.05);
+}
+.userlogin {
+	height: 100%;
+	margin-left: 40rpx;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.userAvatar_box {
+	width: 150rpx;
+	height: 150rpx;
+	margin-top: 25rpx;
+	margin-left: 20rpx;
+	border-radius: 10rpx;
+	overflow: hidden;
+	float: left;
+}
+
+.userAvatar_box image {
+	width: 100%;
+	height: 100%;
+}
+/* 服务 */
+.service_box {
+	position: relative;
+	margin: 10rpx 18rpx;
+	border-radius: 16rpx;
+	background-color: #fff;
+	box-shadow: 20rpx 20rpx 10rpx rgba(39, 48, 57, 0.05);
+}
+
+.service_title {
+	height: 60rpx;
+	line-height: 60rpx;
+	padding-left: 10rpx;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.service_row {
+	height: 70rpx;
+	margin-top: 16rpx;
+	border-bottom: 2rpx #f0f0f0 solid;
+}
+
+.service_icon {
+	width: 50rpx;
+	height: 50rpx;
+	margin-left: 20rpx;
+	margin-top: 10rpx;
+	float: left;
+}
+
+.service_icon image {
+	width: 50rpx;
+	height: 50rpx;
+}
+
+.service_text {
+	font-size: 14px;
+	height: 70rpx;
+	line-height: 70rpx;
+	margin-left: 80rpx;
+}

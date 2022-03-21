@@ -1,0 +1,7 @@
+<!--pages/homePage/index.wxml-->
+
+<!--背景图-->
+<view class="bg_box">
+    <image src="../../image/homePage_bg.png"></image>
+</view>
+<view>1</view>
