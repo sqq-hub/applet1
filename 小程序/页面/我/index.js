@@ -176,7 +176,7 @@ Page({
             })
             wx.removeStorageSync('UserInfo')
         }else{
-            //提示登录
+            // 提示登录
             wx.showToast({
               title: '你还未登录，请先登录！',
               icon:'none',
